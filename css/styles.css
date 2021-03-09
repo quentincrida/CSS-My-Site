@@ -3,15 +3,14 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-
 }
 
 h1 {
   color: #66BFBF;
   font-size: 5.625rem;
   font-family: 'Dancing Script', cursive;
-  line-height: 200%;
-  margin: 50px auto 0 auto ;
+  line-height: 2;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
@@ -43,6 +42,13 @@ h3 {
 
 .middle-container {}
 
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
 .bottom-container {}
 
 .top-cloud {
@@ -65,4 +71,11 @@ h3 {
 .featured-images {
   width: 150px;
   height: 150px;
+}
+
+#featured-image-one {
+  /* border-color: 15rem black; */
+  border-style: solid;
+  border-radius: 20px;
+  padding: 5px;
 }
