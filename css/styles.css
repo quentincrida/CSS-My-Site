@@ -120,10 +120,6 @@ hr {
    margin-top: 20px;
    margin-bottom: 50px;
    background-color: #11999E;
-   -webkit-box-shadow: 1px 1px 20px 0 #000000;
-   -moz-box-shadow: 1px 1px 20px 0 #000000;
-   box-shadow: 1px 1px 20px 0 #000000;
-   text-shadow: 1px 1px 20px #000000;
    border: solid #337FED 0;
    text-decoration: none;
    display: inline-block;
@@ -149,7 +145,7 @@ hr {
     text-decoration: none;
     line-height: 5 ;
     margin: 0 40px;
-    color:#11199E;
+    color: #11999E;
 }
 .copyright {
   color: #EAF6F6;
