@@ -1,5 +1,7 @@
 /* TAG ELEMENTS */
+
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -18,6 +20,7 @@ h2 {
   font-family: 'Lato', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
+  padding-bottom:10px;
 }
 
 h3 {
@@ -25,24 +28,37 @@ h3 {
   color:#11999E;
 }
 
-p {
-    color: #40514E;
-}
 hr {
   border-style: dotted none none none;
   width: 5%;
   border-width: 9px;
   border-color: #EAF6F6;
+  margin: 100px auto;
 
 }
 
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
 
 /* CLASSES */
+
 .dev {
   text-decoration: underline;
 }
 
-.main-container {BUTTON_XGW
+.main-container {
   display: flex;
 }
 
@@ -53,21 +69,22 @@ hr {
 }
 
 .middle-container {
+margin: 100px 0;
+}
 
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 0 1px;
+  padding: 50px 0 20px;
 }
 
 .skill-row {
   margin: 100px auto 100px auto;
   width: 50%;
   text-align: left;
-  line-height: 2;
 }
 
-.bottom-container {
-  background-color: #66BFBF;
-  margin: 0 1px;
 
-}
 
 .top-cloud {
   position: absolute;
@@ -77,20 +94,17 @@ hr {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .profile-pic {
-  margin-top: 50px;
   width: 150px;
   height: 150px;
 }
 
 .skill-img-one {
-  /* border: 5px solid black; */
   border-radius: 20px;
-  /* padding: 3px; */
   float: left;
   margin-right: 30px;
   width: 25%;
@@ -102,10 +116,20 @@ hr {
   width: 25%;
 }
 .intro-text {
-  width: 50%;
-  margin:0 25% 0 25%;
+  width: 30%;
+  margin:auto;
   text-align: left;
-  font-weight: bolder;
+  }
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 .btn-contact-me {
@@ -139,15 +163,4 @@ hr {
    -moz-border-radius: 4px;
    border-radius: 4px;
    text-decoration: none;
-}
-.footer-link {
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-    line-height: 5 ;
-    margin: 0 40px;
-    color: #11999E;
-}
-.copyright {
-  color: #EAF6F6;
-  line-height: 5;
 }
